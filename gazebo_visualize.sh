@@ -1,6 +1,6 @@
 #!/bin/bash
 
-git clone https://github.com/PX4/Firmware.git
+git clone https://github.com/uas-at-ucla/Firmware.git
 
 cd Firmware
 git fetch origin

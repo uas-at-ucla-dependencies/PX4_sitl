@@ -1,13 +1,20 @@
 py_binary(
-  name = 'px4_sitl',
+  name = 'gazebo',
   srcs = [
-    'px4_sitl.py',
+    'gazebo.py',
   ],
 )
 
 py_binary(
-  name = 'px4_sitl_visualize',
+  name = 'gazebo_visualize',
   srcs = [
-    'px4_sitl_visualize.py',
+    'gazebo_visualize.py',
+  ],
+)
+
+py_binary(
+  name = 'jmavsim',
+  srcs = [
+    'jmavsim.py',
   ],
 )
